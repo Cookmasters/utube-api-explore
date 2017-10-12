@@ -1,0 +1,349 @@
+---
+? https://www.googleapis.com/youtube/v3/search?key=AIzaSyDjCoBw8PivTK6CnyF9SgZfTWdUiUc-JPA&part=snippet&q=Chicken+and+Broccoli+Stir+fry
+: !ruby/object:HTTP::Response
+  version: '1.1'
+  uri: !ruby/object:HTTP::URI
+    uri: !ruby/object:Addressable::URI
+      validation_deferred: false
+      scheme: https
+      host: www.googleapis.com
+      path: "/youtube/v3/search"
+      query: key=AIzaSyDjCoBw8PivTK6CnyF9SgZfTWdUiUc-JPA&part=snippet&q=Chicken+and+Broccoli+Stir+fry
+      authority: www.googleapis.com
+      uri_string: https://www.googleapis.com/youtube/v3/search?key=AIzaSyDjCoBw8PivTK6CnyF9SgZfTWdUiUc-JPA&part=snippet&q=Chicken+and+Broccoli+Stir+fry
+      password: 
+      user: 
+      port: 
+  status: !ruby/marshalable:HTTP::Response::Status
+    :__v2__:
+    - :@code
+    ? - 200
+    : 200
+  headers: !ruby/object:HTTP::Headers
+    pile:
+    - - Expires
+      - Thu, 12 Oct 2017 00:12:02 GMT
+    - - Date
+      - Thu, 12 Oct 2017 00:12:02 GMT
+    - - Cache-Control
+      - private, max-age=120, must-revalidate, no-transform
+    - - Etag
+      - '"cbz3lIQ2N25AfwNr-BdxUVxJ_QY/WEtaXeroy1GyrqACtx0W5IwtR7I"'
+    - - Vary
+      - Origin
+    - - Vary
+      - X-Origin
+    - - Content-Type
+      - application/json; charset=UTF-8
+    - - X-Content-Type-Options
+      - nosniff
+    - - X-Frame-Options
+      - SAMEORIGIN
+    - - X-Xss-Protection
+      - 1; mode=block
+    - - Content-Length
+      - '5497'
+    - - Server
+      - GSE
+    - - Alt-Svc
+      - quic=":443"; ma=2592000; v="39,38,37,35"
+    - - Connection
+      - close
+  proxy_headers: !ruby/object:HTTP::Headers
+    pile: []
+  content_type: !ruby/struct:HTTP::ContentType
+    mime_type: application/json
+    charset: UTF-8
+  body: !ruby/object:HTTP::Response::Body
+    stream: &1 !ruby/object:HTTP::Connection
+      persistent: false
+      keep_alive_timeout: 5.0
+      pending_request: false
+      pending_response: false
+      failed_proxy_connect: false
+      parser: !ruby/object:HTTP::Response::Parser
+        parser: !ruby/object:HTTP::Parser {}
+        finished: false
+        headers: 
+        chunk: 
+      socket: !ruby/object:HTTP::Timeout::Null
+        options: &2 {}
+        socket: !ruby/object:OpenSSL::SSL::SSLSocket
+          context: !ruby/object:OpenSSL::SSL::SSLContext
+            verify_mode: 1
+            verify_hostname: true
+            cert_store: &3 !ruby/object:OpenSSL::X509::Store
+              verify_callback: 
+              error: 
+              error_string: 
+              chain: 
+              time: 
+          io: !ruby/object:TCPSocket {}
+          eof: false
+          rbuffer: ''
+          sync: true
+          hostname: www.googleapis.com
+          sync_close: true
+          wbuffer: ''
+      keep_alive: false
+    connection: *1
+    streaming: false
+    contents: |
+      {
+       "kind": "youtube#searchListResponse",
+       "etag": "\"cbz3lIQ2N25AfwNr-BdxUVxJ_QY/WEtaXeroy1GyrqACtx0W5IwtR7I\"",
+       "nextPageToken": "CAUQAA",
+       "regionCode": "TW",
+       "pageInfo": {
+        "totalResults": 969690,
+        "resultsPerPage": 5
+       },
+       "items": [
+        {
+         "kind": "youtube#searchResult",
+         "etag": "\"cbz3lIQ2N25AfwNr-BdxUVxJ_QY/qT0HbdwTs5sTKlfIIzNsq5WdItw\"",
+         "id": {
+          "kind": "youtube#video",
+          "videoId": "tRadAJLsrmc"
+         },
+         "snippet": {
+          "publishedAt": "2016-03-16T16:14:57.000Z",
+          "channelId": "UClcWrXNVItYUqoExg_Y86AA",
+          "title": "How to Make the Best Chicken and Broccoli Chinese Stir Fry Recipe ~ Healthy Chinese Cooking",
+          "description": "We just love Chinese chicken and broccoli and this is a Classic Chinese meal. In this recipe video I will show you how to make easy and HEALTHY chicken and ...",
+          "thumbnails": {
+           "default": {
+            "url": "https://i.ytimg.com/vi/tRadAJLsrmc/default.jpg",
+            "width": 120,
+            "height": 90
+           },
+           "medium": {
+            "url": "https://i.ytimg.com/vi/tRadAJLsrmc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+           },
+           "high": {
+            "url": "https://i.ytimg.com/vi/tRadAJLsrmc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+           }
+          },
+          "channelTitle": "Tess Cooks 4u",
+          "liveBroadcastContent": "none"
+         }
+        },
+        {
+         "kind": "youtube#searchResult",
+         "etag": "\"cbz3lIQ2N25AfwNr-BdxUVxJ_QY/lwhL5gUUIUZLmRsmJuIYwWx0_E4\"",
+         "id": {
+          "kind": "youtube#video",
+          "videoId": "_md2Hp1UCeo"
+         },
+         "snippet": {
+          "publishedAt": "2012-12-05T22:57:14.000Z",
+          "channelId": "UCtjlTbeLELCuJU0o8AF2qtA",
+          "title": "Wok Cooking Stir-fry Chicken with Broccoli Recipe / World of Flavor",
+          "description": "Simple Chicken with Broccoli Recipe cooked in a cast iron wok. The Broccoli gets steamed and the chicken get velveted ahead of time so this is a dish that can ...",
+          "thumbnails": {
+           "default": {
+            "url": "https://i.ytimg.com/vi/_md2Hp1UCeo/default.jpg",
+            "width": 120,
+            "height": 90
+           },
+           "medium": {
+            "url": "https://i.ytimg.com/vi/_md2Hp1UCeo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+           },
+           "high": {
+            "url": "https://i.ytimg.com/vi/_md2Hp1UCeo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+           }
+          },
+          "channelTitle": "James Strange",
+          "liveBroadcastContent": "none"
+         }
+        },
+        {
+         "kind": "youtube#searchResult",
+         "etag": "\"cbz3lIQ2N25AfwNr-BdxUVxJ_QY/9XOWcZ1E-MfXdA7rZvQVRNDogWc\"",
+         "id": {
+          "kind": "youtube#video",
+          "videoId": "Wno3isc5O14"
+         },
+         "snippet": {
+          "publishedAt": "2015-01-04T22:08:38.000Z",
+          "channelId": "UCaUR4ViaAVLLzKQ2ex6u1Sg",
+          "title": "蠔油西蘭花雞  Chicken Broccoli in Oyster Sauce : One pan method.",
+          "description": "Retired Chef Cook, Mr. Fai . show you how to make this delicious crunchy Broccoli with chicken. One pan method. No need to para-boiled / blanching the veggie ...",
+          "thumbnails": {
+           "default": {
+            "url": "https://i.ytimg.com/vi/Wno3isc5O14/default.jpg",
+            "width": 120,
+            "height": 90
+           },
+           "medium": {
+            "url": "https://i.ytimg.com/vi/Wno3isc5O14/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+           },
+           "high": {
+            "url": "https://i.ytimg.com/vi/Wno3isc5O14/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+           }
+          },
+          "channelTitle": "HAPPY WOK",
+          "liveBroadcastContent": "none"
+         }
+        },
+        {
+         "kind": "youtube#searchResult",
+         "etag": "\"cbz3lIQ2N25AfwNr-BdxUVxJ_QY/uKHA28qViuqaxQ_ukXhHbPPCoU8\"",
+         "id": {
+          "kind": "youtube#video",
+          "videoId": "0UE8fLUV9VI"
+         },
+         "snippet": {
+          "publishedAt": "2015-08-09T13:50:54.000Z",
+          "channelId": "UCGKAhUMPWsdLT1vb3hl1Dtg",
+          "title": "Chicken and Broccoli Stir Fry - in the Kitchen With Jonny Episode 84",
+          "description": "Easy chicken and broccoli stir fry recipe. SUBSCRIBE HERE : http://m.youtube.com/channel/UCGKAhUMPWsdLT1vb3hl1Dtg SWEET AND SOUR CHICKEN: ...",
+          "thumbnails": {
+           "default": {
+            "url": "https://i.ytimg.com/vi/0UE8fLUV9VI/default.jpg",
+            "width": 120,
+            "height": 90
+           },
+           "medium": {
+            "url": "https://i.ytimg.com/vi/0UE8fLUV9VI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+           },
+           "high": {
+            "url": "https://i.ytimg.com/vi/0UE8fLUV9VI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+           }
+          },
+          "channelTitle": "In The Kitchen With Jonny",
+          "liveBroadcastContent": "none"
+         }
+        },
+        {
+         "kind": "youtube#searchResult",
+         "etag": "\"cbz3lIQ2N25AfwNr-BdxUVxJ_QY/zRMIhwzeBwUUob-eIjB8bMRQ1XU\"",
+         "id": {
+          "kind": "youtube#video",
+          "videoId": "BQa1wMo2_-8"
+         },
+         "snippet": {
+          "publishedAt": "2016-09-20T21:00:00.000Z",
+          "channelId": "UCJFp8uSYCjXOMnkUyb3CQ3Q",
+          "title": "Chicken & Veggie Stir-Fry",
+          "description": "Here is what you'll need! Chicken & Veggie Stir-Fry Servings: 6 INGREDIENTS 1 pound chicken breast, cubed Salt, to taste Pepper, to taste 1 pound broccoli ...",
+          "thumbnails": {
+           "default": {
+            "url": "https://i.ytimg.com/vi/BQa1wMo2_-8/default.jpg",
+            "width": 120,
+            "height": 90
+           },
+           "medium": {
+            "url": "https://i.ytimg.com/vi/BQa1wMo2_-8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+           },
+           "high": {
+            "url": "https://i.ytimg.com/vi/BQa1wMo2_-8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+           }
+          },
+          "channelTitle": "Tasty",
+          "liveBroadcastContent": "none"
+         }
+        }
+       ]
+      }
+    encoding: !ruby/encoding UTF-8
+? https://www.googleapis.com/youtube/v3/search?key=AIzaSyDjCoBw8PivTK6CnyF9SgZfTWdUiUc-JPA&part=snippet&q=Chicken
+  and Broccoli Stir fry
+: !ruby/object:HTTP::Response
+  version: '1.0'
+  uri: !ruby/object:HTTP::URI
+    uri: !ruby/object:Addressable::URI
+      validation_deferred: false
+      scheme: https
+      host: www.googleapis.com
+      path: "/youtube/v3/search"
+      query: key=AIzaSyDjCoBw8PivTK6CnyF9SgZfTWdUiUc-JPA&part=snippet&q=Chicken and
+        Broccoli Stir fry
+      authority: www.googleapis.com
+      uri_string: https://www.googleapis.com/youtube/v3/search?key=AIzaSyDjCoBw8PivTK6CnyF9SgZfTWdUiUc-JPA&part=snippet&q=Chicken
+        and Broccoli Stir fry
+      password: 
+      user: 
+      port: 
+  status: !ruby/marshalable:HTTP::Response::Status
+    :__v2__:
+    - :@code
+    ? - 400
+    : 400
+  headers: !ruby/object:HTTP::Headers
+    pile:
+    - - Content-Type
+      - text/html; charset=UTF-8
+    - - Referrer-Policy
+      - no-referrer
+    - - Content-Length
+      - '1555'
+    - - Date
+      - Thu, 12 Oct 2017 00:12:02 GMT
+  proxy_headers: !ruby/object:HTTP::Headers
+    pile: []
+  content_type: !ruby/struct:HTTP::ContentType
+    mime_type: text/html
+    charset: UTF-8
+  body: !ruby/object:HTTP::Response::Body
+    stream: &4 !ruby/object:HTTP::Connection
+      persistent: false
+      keep_alive_timeout: 5.0
+      pending_request: false
+      pending_response: true
+      failed_proxy_connect: false
+      parser: !ruby/object:HTTP::Response::Parser
+        parser: !ruby/object:HTTP::Parser {}
+        finished: false
+        headers:
+          Content-Type: text/html; charset=UTF-8
+          Referrer-Policy: no-referrer
+          Content-Length: '1555'
+          Date: Thu, 12 Oct 2017 00:12:02 GMT
+        chunk: |-
+          <!DOCTYPE html>
+          <html lang=en>
+            <meta charset=utf-8>
+            <meta name=viewport content="initial-scale=1, minimum-scale=1, width=device-width">
+            <title>Error 400 (Bad Request)!!1</title>
+            <style>
+              *{margin:0;padding:0}html,code{font:15px/22px arial,sans-serif}html{background:#fff;color:#222;padding:15px}body{margin:7% auto 0;max-width:390px;min-height:180px;padding:30px 0 15px}* > body{background:url(//www.google.com/images/errors/robot.png) 100% 5px no-repeat;padding-right:205px}p{margin:11px 0 22px;overflow:hidden}ins{color:#777;text-decoration:none}a img{border:0}@media screen and (max-width:772px){body{background:none;margin-top:0;max-width:none;padding-right:0}}#logo{background:url(//www.google.com/images/branding/googlelogo/1x/googlelogo_color_150x54dp.png) no-repeat;margin-left:-5px}@media only screen and (min-resolution:192dpi){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat 0% 0%/100% 100%;-moz-border-image:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) 0}}@media only screen and (-webkit-min-device-pixel-ratio:2){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png
+      socket: !ruby/object:HTTP::Timeout::Null
+        options: *2
+        socket: !ruby/object:OpenSSL::SSL::SSLSocket
+          context: !ruby/object:OpenSSL::SSL::SSLContext
+            verify_mode: 1
+            verify_hostname: true
+            cert_store: *3
+          io: !ruby/object:TCPSocket {}
+          eof: false
+          rbuffer: ''
+          sync: true
+          hostname: www.googleapis.com
+          sync_close: true
+          wbuffer: ''
+      keep_alive: false
+    connection: *4
+    streaming: 
+    contents: 
+    encoding: !ruby/encoding UTF-8
